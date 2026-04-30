@@ -49,11 +49,7 @@
 - Data
 - Technology
 
-## Important System Compoennt :
-- Actors
-- Business Processes 
-- Business rules
-- Business
+ 
 
 ## 11. System Analyst Role
 - Responsibilities of a System Analyst
