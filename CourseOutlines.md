@@ -12,17 +12,12 @@
 
 ## 3. How to Study This Course
 - How to Approach These Lectures
-- Learning Strategy for Maximum Benefit
+
 
 ## 4. Tools & Preparation
-- Tools You Will Need During the Course
-- Software and Resources
-
-## 5. Case Study (Running Example)
-- **Fahad's Rental Platform (Taiz City)**
-  - Fahad manages apartment rentals for building owners
-  - He wants to build an integrated platform connecting landlords and tenants
-  - The platform operates under a commission-based model
+- Tools You Will Need During the Course:
+-- Vistual Studio 2010 for Modeling or app.diagram.net lucichart web-based
+-- Word 
 
 ## 6. Fundamental Concepts Refresher
 
