@@ -159,3 +159,73 @@
 ## خلاصة
 
 النظام لا يقتصر على عرض الأصول فقط، بل يدير **دورة حياة كاملة** لعملية التأجير من البداية إلى النهاية، مع وجود أنماط متكررة يمكن توحيدها في التصميم البرمجي لتحسين جودة النظام وقابلية صيانته.
+
+---
+
+
+# Requirements Analysis Process
+
+## 1. Problem Identification
+
+- What are the problems?
+- Why do these problems exist?
+- What are the business goals and expected outcomes?
+
+## 2. Stakeholder Analysis
+
+- Identify all stakeholders (users, managers, external parties)
+- Define their roles and responsibilities
+- Understand their needs and expectations
+
+## 3. Requirement Gathering
+
+- Collect requirements using techniques such as interviews, observation, and document analysis
+- Identify functional requirements (features)
+- Identify non-functional requirements (performance, security, usability)
+
+## 4. Requirement Analysis
+
+- **Epics** → decomposed into **Features**
+- **Features** → decomposed into **User Stories**
+- Use cases
+- Refine and organize the collected requirements
+- Remove ambiguity and resolve conflicts
+- Prioritize requirements based on importance and feasibility
+
+## 5. System Modeling
+
+- Create visual representations of the system
+- Use diagrams such as:
+  - Use case diagrams
+  - Activity diagrams
+  - Sequence diagrams
+  - Data models
+
+## 6. Requirement Specification: Software Requirements Specification (SRS)
+
+- Document all requirements in a structured format
+- Include:
+  - System overview
+  - Functional and non-functional requirements
+  - Constraints
+  - Use cases
+
+## 7. Transition to Design
+
+> Finally, analysis hands off to design.
+
+### 7.1 Define System Architecture
+
+- Determine the overall structure of the system
+- Identify components and their interactions
+
+### 7.2 Choose Technologies
+
+- Select frameworks, programming languages, and tools
+- Ensure alignment with system requirements
+
+### 7.3 Plan Implementation
+
+- Define development phases and timelines
+- Allocate resources and tasks
+- Prepare for development and deployment
