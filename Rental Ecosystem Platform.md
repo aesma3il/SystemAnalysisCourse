@@ -173,3 +173,275 @@ Owners evaluate: person/family, rental period, number of occupants, type of use.
 - No ratings/reviews.
 - Deposit disputes.
 - No clear documentation.
+
+
+
+---
+# Rental Platform System — Domains/Subdomains
+
+## 1. Property Domain
+
+Manages the properties themselves.
+
+### Responsibilities
+
+* Property definition
+* Property information
+* Property features
+* Property specifications
+* Property status
+* Property location
+* Property images
+* Property availability
+* Property ownership
+* Property lifecycle
+
+### Entities
+
+* Property
+* PropertyType
+* PropertyCategory
+* PropertyImage
+* PropertyFeature
+* PropertyLocation
+* PropertyOwner
+* PropertyStatus
+* PropertyAvailability
+
+---
+
+## 2. Listing Domain
+
+Manages property listings and advertisements.
+
+### Responsibilities
+
+* Create listings
+* Publish properties
+* Update listings
+* Hide listings
+* Manage listing details
+* Manage pricing
+* Manage listing duration
+
+### Entities
+
+* Listing
+* ListingMedia
+* ListingPrice
+* ListingStatus
+* ListingVisibility
+* Promotion
+
+---
+
+## 3. Search & Discovery Domain
+
+Handles searching and discovering properties.
+
+### Responsibilities
+
+* Property search
+* Filtering
+* Sorting
+* Suggestions
+* Location-based discovery
+* Price-based discovery
+* Recommendations
+
+### Entities
+
+* SearchQuery
+* Filter
+* SearchResult
+* Recommendation
+* SavedSearch
+* SearchHistory
+
+---
+
+## 4. Booking / Rental Domain
+
+Handles booking and rental operations.
+
+### Responsibilities
+
+* Booking requests
+* Approval or rejection
+* Rental management
+* Check-in and check-out
+* Booking tracking
+* Rental duration management
+
+### Entities
+
+* Booking
+* Rental
+* RentalPeriod
+* BookingRequest
+* BookingStatus
+* CheckIn
+* CheckOut
+
+---
+
+## 5. Contract Domain
+
+Handles contracts and agreements.
+
+### Responsibilities
+
+* Contract creation
+* Contract signing
+* Contract terms management
+* Agreement documentation
+* Contract renewal
+* Contract termination
+
+### Entities
+
+* Contract
+* ContractTerm
+* ContractParty
+* ContractSignature
+* ContractStatus
+* Renewal
+
+---
+
+## 6. Payment Domain
+
+Handles payments and financial collection.
+
+### Responsibilities
+
+* Payment management
+* Invoice generation
+* Payment collection
+* Overdue tracking
+* Payment methods management
+* Financial records
+
+### Entities
+
+* Payment
+* Invoice
+* Transaction
+* PaymentMethod
+* Receipt
+* Refund
+* FinancialRecord
+
+---
+
+## 7. Trust & Verification Domain
+
+Handles trust and verification processes.
+
+### Responsibilities
+
+* Identity verification
+* Ownership verification
+* User verification
+* Fraud prevention
+* Trust management
+
+### Entities
+
+* Verification
+* IdentityDocument
+* OwnershipProof
+* UserVerification
+* TrustScore
+* FraudReport
+
+---
+
+## 8. Maintenance Domain
+
+Handles maintenance and follow-up operations.
+
+### Responsibilities
+
+* Maintenance requests
+* Issue tracking
+* Maintenance scheduling
+* Technician management
+* Maintenance reports
+
+### Entities
+
+* MaintenanceRequest
+* MaintenanceTask
+* Technician
+* MaintenanceSchedule
+* MaintenanceReport
+
+---
+
+## 9. Communication Domain
+
+Handles communication and notifications.
+
+### Responsibilities
+
+* Conversations
+* Messaging
+* Notifications
+* Alerts
+* Communication between parties
+
+### Entities
+
+* Conversation
+* Message
+* Notification
+* Alert
+* CommunicationChannel
+
+---
+
+## 10. Review & Reputation Domain
+
+Handles reviews and reputation management.
+
+### Responsibilities
+
+* Property reviews
+* Tenant reviews
+* Owner reviews
+* Reputation management
+* Feedback and comments
+
+### Entities
+
+* Review
+* Rating
+* Reputation
+* Feedback
+* Comment
+
+---
+
+## 11. Administration Domain
+
+Handles administration and supervision.
+
+### Responsibilities
+
+* User management
+* Permissions and roles
+* Monitoring
+* Reporting
+* System settings
+* Platform administration
+
+### Entities
+
+* Admin
+* Role
+* Permission
+* AuditLog
+* SystemSetting
+* Report
+* Dashboard
